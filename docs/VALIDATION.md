@@ -10,6 +10,12 @@ Validated locally on 2026-10-09, macOS 26.6.2 / Apple Silicon, Python 3.14.7.
 * Browser smoke at 137.5 bb: loaded the local table and assets, called preflop, checked the flop, and observed legal bot responses and progression to the turn.
 * Checked the tracked file list: no `reel/`, virtual environment, model working files, experiment reports, object/build caches, or credential files. A targeted common-secret-pattern scan found no matches in tracked files.
 
-The included native executable is pinned by SHA-256 and has matching source provenance. Compiler warnings in vendored code did not prevent clean source builds. Linux/Intel macOS/WSL2 have a documented build path; they were not locally validated for this release. The GitHub workflow rebuilds on Linux and runs the source tests; its optional model-enabled run exercises the complete release installation.
+The included native executable is pinned by SHA-256 and has matching source provenance. Compiler warnings in vendored code did not prevent clean source builds.
+
+## Published installation and compatibility follow-up
+
+The [full Linux workflow](https://github.com/Maxwell553/BeatPoker/actions/runs/38018706171) built both engines, downloaded the actual published bundle, installed all 89 verified model files, passed **122 tests in 14.73 seconds with no skips**, and passed doctor. GitHub's release-asset digest independently matched the local bundle hash. A fresh public source clone matched the published commit and ignored `reel/`.
+
+Version 1.0.1 adds automatic source builds on Apple Silicon Macs older than macOS 26, because the shipped C++ executable's deployment target is 26.0. **Seven platform-selection tests passed** for old/new Apple Silicon macOS, Intel macOS, and Linux. This adds installer coverage without changing the model bundle or playing policy. Intel macOS and WSL2 remain documented build paths without an end-to-end test on those platforms.
 
 These results establish the package's local operability and tested software behavior. They do not establish professional playing strength, a guaranteed win rate, or full-game exploitability bounds.
