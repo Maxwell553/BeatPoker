@@ -9,6 +9,13 @@ import venv
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def needs_build(system, machine, mac_version):
+    # The shipped C++ reader targets macOS 26; Rust alone targets macOS 11.
+    # Rebuild both together on older Macs instead of attempting an incompatible binary.
+    return not (system == 'Darwin' and machine == 'arm64'
+                and mac_version and int(mac_version.split('.')[0]) >= 26)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--artifacts', type=Path, help='Directory containing downloaded model bundle parts')
@@ -27,7 +34,7 @@ def main():
     run(python, '-m', 'pip', 'install', '-r', 'requirements.txt')
     artifact_args = ['--from-dir', str(args.artifacts.resolve())] if args.artifacts else []
     run(python, 'scripts/install_artifacts.py', *artifact_args)
-    if args.build or (platform.system(), platform.machine()) != ('Darwin', 'arm64'):
+    if args.build or needs_build(platform.system(), platform.machine(), platform.mac_ver()[0]):
         run('sh', 'training/build_slumbot.sh', 'bin/policy_server')
         run(python, 'training/build_native.py')
     run(python, 'scripts/doctor.py')

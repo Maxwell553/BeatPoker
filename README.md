@@ -6,7 +6,7 @@ This release packages the trained full-game bot from the Poker workspace, built 
 
 ## Install and play
 
-Requirements: Python 3.11+, macOS or Linux, at least 12 GB free disk space, and preferably 16 GB RAM. Apple Silicon macOS executables are included. Linux and Intel Macs additionally need a C++17 compiler, Make, and a stable Rust toolchain with Cargo; setup builds executables there. Windows requires WSL2. This release was tested on Apple Silicon macOS; other platforms have a source build path, not a validation claim.
+Requirements: Python 3.11+, macOS or Linux, at least 12 GB free disk space, and preferably 16 GB RAM. Executables for **Apple Silicon macOS 26+** are included. Linux, Intel Macs, and older macOS versions additionally need a C++17 compiler, Make, and a stable Rust toolchain with Cargo; setup automatically builds executables there. Windows requires WSL2. See [validation](docs/VALIDATION.md) for tested platforms.
 
 ```sh
 git clone https://github.com/Maxwell553/BeatPoker.git
