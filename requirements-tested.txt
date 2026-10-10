@@ -1,0 +1,4 @@
+# Exact runtime used for the macOS arm64 / Python 3.14 release validation.
+numpy==2.5.3
+numba==0.68.0
+llvmlite==0.50.0

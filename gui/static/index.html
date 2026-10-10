@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BeatPoker — Heads-up</title>
+  <link rel="stylesheet" href="/style.css?v=2" />
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>BeatPoker</h1>
+      <p class="sub">Heads-up No-Limit Hold'em · experimental bot</p>
+    </div>
+    <div class="stats">
+      <div><span class="k">Hand</span> <span id="handNo">1</span></div>
+      <div><span class="k">Session</span> <span id="session">0.0 bb</span></div>
+      <div><span class="k">Rake</span> <span id="rakeLabel">on</span></div>
+    </div>
+  </header>
+
+  <main class="table-wrap">
+    <section class="felt" aria-label="Poker table">
+      <div class="seat villain" id="seatBot">
+        <div class="seat-meta">
+          <span class="name">BeatPoker</span>
+          <span class="pos" id="botPos">BB</span>
+        </div>
+        <div class="cards" id="botCards"></div>
+        <div class="chips"><span id="botStack">100</span> bb</div>
+        <div class="street-bet" id="botBet"></div>
+      </div>
+
+      <div class="board-area">
+        <div class="pot">Pot <strong id="pot">1.5</strong> bb</div>
+        <div class="board" id="board"></div>
+        <div class="street" id="street">PREFLOP</div>
+        <div class="result" id="result" hidden></div>
+      </div>
+
+      <div class="seat hero" id="seatYou">
+        <div class="street-bet" id="heroBet"></div>
+        <div class="cards" id="heroCards"></div>
+        <div class="chips"><span id="heroStack">100</span> bb</div>
+        <div class="seat-meta">
+          <span class="name">You</span>
+          <span class="pos" id="heroPos">BTN</span>
+        </div>
+      </div>
+      <div class="dealer" id="dealer" title="Dealer button">D</div>
+    </section>
+
+    <aside class="log-panel">
+      <h2>Action</h2>
+      <ol id="log"></ol>
+    </aside>
+  </main>
+
+  <footer class="controls">
+    <p id="thinking" role="status" aria-live="polite" hidden>BeatPoker is thinking…</p>
+    <div class="sliders">
+      <label class="slider-row">
+        <span>Bet to <strong id="bbVal">2.5</strong> bb</span>
+        <input type="range" id="bbSlider" min="1" max="100" step="0.5" value="2.5" />
+      </label>
+      <label class="slider-row">
+        <span>Pot <strong id="pctVal">66</strong>%</span>
+        <input type="range" id="pctSlider" min="25" max="200" step="5" value="66" />
+      </label>
+    </div>
+    <div class="btns" id="actionBtns">
+      <button type="button" id="btnFold" class="danger">Fold</button>
+      <button type="button" id="btnCheck">Check</button>
+      <button type="button" id="btnCall">Call</button>
+      <button type="button" id="btnMin">Min</button>
+      <button type="button" id="btnPot">Pot</button>
+      <button type="button" id="btnBet" class="primary">Bet</button>
+      <button type="button" id="btnAllin">All-in</button>
+      <button type="button" id="btnNext" class="primary" hidden>Next hand</button>
+    </div>
+    <div class="settings">
+      <label>Stack
+        <input type="range" id="stackSlider" min="50" max="1000" step="1" value="100" />
+        <span id="stackVal">100</span> bb
+      </label>
+      <label>Rake
+        <select id="rakeSel">
+          <option value="casino">Casino</option>
+          <option value="online">Online</option>
+          <option value="none" selected>None</option>
+          <option value="heavy">Heavy</option>
+        </select>
+      </label>
+      <button type="button" id="btnNew">New session</button>
+    </div>
+  </footer>
+  <script src="/app.js?v=3"></script>
+</body>
+</html>

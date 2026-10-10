@@ -1,0 +1,185 @@
+{
+  "format": 1,
+  "checkpoints": [
+    {
+      "stack_bb": 50,
+      "batch": 99,
+      "training_deals": 100000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.0.99.p0.i": "227e6f47552c4ff939a7cdcf486a7d9b0d9a2e1e892fcce9aadd856141237211",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.0.99.p1.i": "22f6475e222d8d2a260f8f783e6165943504465a9065d59848e17afc5b841070",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.1.99.p0.i": "bfacb904ad3ec1ac01fc2cf8e296ef9928c09e4440e37d49b481a3f9402b0114",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.1.99.p1.i": "e048fc9b3c3c3ebf1701753180623d45b03969e084f9b6686ede31975c8792ba",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.2.99.p0.i": "bc642b4d8a992a5ecbef99d04d6d1f0c7e2aebb746d16aa70b75b7853ee30f16",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.2.99.p1.i": "0ec8c8b5705fee231111b77a8ae0732692c8d8f26f898a817317663237874e68",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.3.99.p0.i": "09adb4b15985b82e0b437772d5d884478897ceb3764d30be36c1547a0fd48380",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.3.99.p1.i": "95d7979cf949eb8cbbc7484696d3df6574c97161b89f24cd24a97d915ad4f021",
+        "training/configs/hu50_params": "0f814f4606d4ef10201d21ea3762601f062787e54767111dcbf5bc82802ca661",
+        "training/checkpoints/hu50_batch99.json": "05ea6b7fc2c06cf756ef2d8b25efaf943e113c9e4f79ca64d737d48a4d64e86e",
+        "training/slumbot_data/betting_tree.holdem.2.hu50": "e03491ec3bb0696e69a36243fcb3561c0ef3c3b9215dec59d4e8462bbc1245d9"
+      },
+      "preflop_export": "training/checkpoints/hu50_batch99.json",
+      "validated_pro_level": false
+    },
+    {
+      "stack_bb": 75,
+      "batch": 99,
+      "training_deals": 100000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.0.99.p0.i": "bffb58242165fc55a097755d448ff80b34d27fb3751721d2d4956fcdecba8704",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.0.99.p1.i": "85ca7f1a9c9b909a2d0d3290ab73c995acb2d6568ea1655e73966c2d181daaa9",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.1.99.p0.i": "2c0bfd1419f2b73df3c5f5c86410ef2d1a8438f894d946d44ec98cb03af25e67",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.1.99.p1.i": "0caa1a140e82ca8dcf9527266864c45ba89b01936362672b8d26a71be5739ecb",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.2.99.p0.i": "56446ef09f2515c19fa78b56fb0ba7868e443c71b8630ed58d284018e235269f",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.2.99.p1.i": "bff2f8cb382ee98bd1afdcef03e695c2508dc82d864ebb28d38a65093347b2ed",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.3.99.p0.i": "339f637f8eb7ef6a24b1fc3ee9b7551b3a8edc685cf3e2c481ebfbfee97503b2",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.3.99.p1.i": "662f1946a3a8fa4f3650c1a31fa9c2d5cc6a2986a66af971810cb0cb248ec80f",
+        "training/configs/hu75_params": "6d41166bd3f695f704fe8a4cb0594671c36c6f211f6a34fb853c219a544a43c2",
+        "training/checkpoints/hu75_batch99.json": "00b453e5a5ee48b0fa07e7578b9971a517ad6c4d76dc0fdab1ba961a5b811d84",
+        "training/slumbot_data/betting_tree.holdem.2.hu75": "0e248a71fd42e55169709df41450170ef74cc30bc92a910dcc587e1bc0246e3e"
+      },
+      "preflop_export": "training/checkpoints/hu75_batch99.json",
+      "validated_pro_level": false
+    },
+    {
+      "stack_bb": 100,
+      "batch": 99,
+      "training_deals": 100000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.0.99.p0.i": "3c965c6b0e05497aaacd77b2d6742ed7502b92c52d28a97595a47556b8b88e51",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.0.99.p1.i": "0c9ae404b8a6f32eed18edba8dba2231da4e14c11a8c4dc78f7a68a17aaf278c",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.1.99.p0.i": "28fb93ad752ec6f8cfb483ab13bae32bc760fa7ac4cbde43f1e755fd471d998e",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.1.99.p1.i": "2787eaeb6834a656b23f25ff95ac5aa3ad8562ac3a94cf0a51b62fd0215c0338",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.2.99.p0.i": "a0e35fb0ee366a0078e50f4019af8b68d4d50a878be43843630c859c8a9c9752",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.2.99.p1.i": "7ac06a9a26022ca521b5d66eec495886b6f3168a7f6411110faaf375cf92041d",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.3.99.p0.i": "d9d971a9c8e8203f28f557638f1597189bb3a3747685c528b5baa521d6fcf4f3",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.3.99.p1.i": "8cbfee112bc68756c3a11093e5b801f3d3c8c399cbeed091e5be42e15091d685",
+        "training/configs/hu100_params": "ca9e026e47784666859db3f8508d7ce7b5f5da4111fe977aac2a940912aa398f",
+        "training/checkpoints/hu100_batch99.json": "08384306f8f5562750a3b6f7bab4e239ba1de33cc5216bf9b526884830d86944",
+        "training/slumbot_data/betting_tree.holdem.2.hu100": "17dd13c3b599450d14933b2da45839ffac4cf45e5f3dccf48e45ba46ff6982e4"
+      },
+      "preflop_export": "training/checkpoints/hu100_batch99.json",
+      "validated_pro_level": false
+    },
+    {
+      "stack_bb": 150,
+      "batch": 99,
+      "training_deals": 100000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.0.99.p0.i": "07444b97fc47ce1d053ee7941f380ac627f7efaa90da3b74cff9b689b449960d",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.0.99.p1.i": "8946b2b95338601682c25f3b879f42665b9519c0b5327692e943ae8c867c0905",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.1.99.p0.i": "97e5660569a6de80cf6a2ceb1af1a5dc346c394fdb892889a58928677264b808",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.1.99.p1.i": "713d1ce79a751ef28d340efc7dfd92b0f068bd17ede9ca308f2b02bd358785eb",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.2.99.p0.i": "bdd2cc69d59ad22d50fa9da4ce4a173730a5a290176e7b42406981abb2962e29",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.2.99.p1.i": "949a9c7661234dfdd3d5ab07af887b448559da662317fda5e935dca902fec235",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.3.99.p0.i": "2d733a642d4c44c08e023e7937a0a1244ab0a1fcf41cee7a03be17c2e7c20b04",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.3.99.p1.i": "ab326a0774d1baa6ef91baa2b77f749d4830c43eeb9526a48b09748422c0c0db",
+        "training/configs/hu150_params": "5adff0affb2db99385b9fd22a9b01a405bedf3b235cc8bad0bf7a7d0ae044078",
+        "training/checkpoints/hu150_batch99.json": "3f3e9ee6a9a295b6c82798620fdc7518101ddd74a49c47c5d09fd89233bff30e",
+        "training/slumbot_data/betting_tree.holdem.2.hu150": "dc179b7cb972e13f0af5bf3c005623b45b38efe4d2c43ab95f3e499d8ae6ee61"
+      },
+      "preflop_export": "training/checkpoints/hu150_batch99.json",
+      "validated_pro_level": false
+    },
+    {
+      "stack_bb": 200,
+      "batch": 99,
+      "training_deals": 100000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.0.99.p0.i": "de015fe37bdeb0e3be318df9414e79a5c37c16d9f6c0a43f910a8975de6aa18e",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.0.99.p1.i": "77df6fa4f9b3ef2b8e9e2542753bc65c3ec1dfaefb09246f546f29f746fcdddd",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.1.99.p0.i": "c8e113cda100ecb0fd5afce2df1f7bbba91662895ac9e0883f6c5bacd073d5dc",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.1.99.p1.i": "20befda1220604484148581d543806f9422a1a1278cf6be4fb2ecbb90a6a05a5",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.2.99.p0.i": "968416a8121d84b1a3208e5d3339a097eeadd272ce998be4e1dc7ac9f0072d27",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.2.99.p1.i": "b3843059b441161f35e4715bc1e48641539324ae7d02d635bbbacdcd187d5a54",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.3.99.p0.i": "3c9b3c016cb970d06406334917d3ba62a91f9ea30d52312505e8dea1f6b5b560",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.3.99.p1.i": "1adf7e4765ca0d5269688e8d3de0f3d8afd4e810a49bd3677a2b1cecf1ab049b",
+        "training/configs/hu200_params": "34bc950de3fa1f78fc51d468db10f899e2e902228ff88e0bf58554b3de72fa31",
+        "training/checkpoints/hu200_batch99.json": "da445fd09ffa79166cf3693fbe98803771fe5d777c739dbb9fb5e5fb36dafa70",
+        "training/slumbot_data/betting_tree.holdem.2.hu200": "41ade137bbb67e9a22268cca69a7991731e3b7e7a15a653e54ff85269c4fc3b6"
+      },
+      "preflop_export": "training/checkpoints/hu200_batch99.json",
+      "validated_pro_level": false
+    },
+    {
+      "stack_bb": 300,
+      "batch": 299,
+      "training_deals": 300000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.0.299.p0.i": "80680088703b5327e267b2473500fac955cf47754798032ae0f23b9b69b2996a",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.0.299.p1.i": "82787fad593e8f6fb9cc5e73d55a4dd9132bde5b37cdd0620ca81e921fe32760",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.1.299.p0.i": "eb1fad9b442effb9bb49b25a4e6841c7b727feb508f24ee88afea1779879dcef",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.1.299.p1.i": "75d3d31e530a143b1c3c95a32d47bf10cc89acf19fc00d718760941bfe9d2254",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.2.299.p0.i": "859a891fc611b1c2c206da6a2283ec88f86ad227d4b904fccf7a411e8dc96317",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.2.299.p1.i": "b79e4e891cfdc3d082e5307b4bcdacae70aa6770079b5886033286370dae819e",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.3.299.p0.i": "da77fbade63e0822f014cc4ca143e228ae10fbe4f6fea6b470cdf3345327b4a8",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.3.299.p1.i": "83c2f9cb96424c2261cc1bb8f2ef96cf8e8baa76c7897305faa92e0b7517dda9",
+        "training/configs/hu300_params": "4cbde29b813d34727b26087ba91f8e90eb8324ca62e1a6be980e8766925e5a5a",
+        "training/slumbot_data/betting_tree.holdem.2.hu300": "f433f4afea23f4741da0b96ce55b9a4ba30d5db8dcdad13740400037379e887e",
+        "training/checkpoints/hu300_batch299.json": "6592adb13da716cea922316de587d9674b7fad18901cf4f17019f1fbe2e2754f"
+      },
+      "preflop_export": "training/checkpoints/hu300_batch299.json",
+      "validated_pro_level": false
+    },
+    {
+      "stack_bb": 500,
+      "batch": 299,
+      "training_deals": 300000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.0.299.p0.i": "bd6f796dd75c27fefb24101a3d7365d2a3df7e7e3f3df1558c8d9b18d989c139",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.0.299.p1.i": "a48a082c9a26f48b5705d39f5c90cac7dfff227ea00c86e50d693609e1285de0",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.1.299.p0.i": "4fbbf6df3afdd26c41342be06bc93b27bf20f6d7a9ec35d05102c519198a05b0",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.1.299.p1.i": "8652c13cd3179eed2dac6633bb34b70318de59424020d9bac1cecffc66797f29",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.2.299.p0.i": "fc6dcebaf25a29dfbe9df09d897042fe124387a5c6caac1b3b466014012a652f",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.2.299.p1.i": "04ccc2581f2083291a38802d81720d7c3fd9cc62462981f44155fba0e8ce627b",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.3.299.p0.i": "9cf96b0b78a80c3fecce70d212ff8bf68665254171c37d8638675df87e43912a",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.3.299.p1.i": "bfe34e02cf2d1489d4e39cbd5a6af67dc2eee2f7d9b3506f8835d87bb1e9dc07",
+        "training/configs/hu500_params": "aca712d2b6a88d3b362dcca5ca3f7aa376c51f07224815f60abee40ff4fcddae",
+        "training/slumbot_data/betting_tree.holdem.2.hu500": "3daa733406fa57bda992bb7bf4b7007fe5ec982e98a340b143a180dabfa0d168",
+        "training/checkpoints/hu500_batch299.json": "9bcc39957c4a0c94087af13f1aef422c85de5d7c13e61204e8986174e4b712b4"
+      },
+      "preflop_export": "training/checkpoints/hu500_batch299.json",
+      "validated_pro_level": false
+    },
+    {
+      "stack_bb": 750,
+      "batch": 299,
+      "training_deals": 300000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.0.299.p0.i": "a0331e42b70f0ac811cb92d58a44b79e7ccd68dace5d484d439e9f22d0f308fb",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.0.299.p1.i": "f8b6570caeecdc75066d664c9cea8773d60d36fedeb08b1778ddb07b1e15abd8",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.1.299.p0.i": "0d9b16228a55fb6171a69cc1c6419c1d7c4e294ed6fb1c5ca881bee8480b3431",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.1.299.p1.i": "96067f6d815c47720e638188f6c936c43954359af3e0b7f7df0e5516f673a162",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.2.299.p0.i": "6d0b0bd9fd74d2ffc14168ac8d7f070ea98cf8ca7857e7f9c691d275e7f3bbff",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.2.299.p1.i": "cb3d45e0b4eff2324d9b4654d043f8f57102d7b213bf2fed5ad44ab102f5608b",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.3.299.p0.i": "7e56a0bba7a541f1782d1208feed2d1b5ae52aec9237fb9d9a4da8228eb2ef9e",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.3.299.p1.i": "4e7bdd6feb59ac68a5bc6d8dce8096793326e9c7fcfe48345aac14f2819ad953",
+        "training/configs/hu750_params": "826b748a506306d84c3b9974fbced67a310d383567accb72b0c7f5cd6a7e5756",
+        "training/slumbot_data/betting_tree.holdem.2.hu750": "9b9e66ec1ea91a4d4bbd06703367c2f41eb8d65ac19e387aebf9c785dad1f6ad",
+        "training/checkpoints/hu750_batch299.json": "d952dd3136334e24741a008fc0f23ff49a82db861261464024c096366876d123"
+      },
+      "preflop_export": "training/checkpoints/hu750_batch299.json",
+      "validated_pro_level": false
+    },
+    {
+      "stack_bb": 1000,
+      "batch": 299,
+      "training_deals": 300000000,
+      "sha256": {
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.0.299.p0.i": "201ef913af8e35a5ca09aac9a61796433bcfa4e3770abc0e856cba9c9110fdf8",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.0.299.p1.i": "be00ae130402ad3e19f603ee2b339c3b6fe29af876b7d3993acf2d24a1917ad0",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.1.299.p0.i": "1cd7ed835b68bf05f1fe80ae92a2293d3644c6dd0c54631fa33811e426de90c5",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.1.299.p1.i": "983ee045f4452aa2da6557959eac41c34afd36ed44b2ed140e199a3b6d3c975e",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.2.299.p0.i": "456c7d6217975c2942533de20792b10335e22e75cdcb13bdae8381423168b622",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.2.299.p1.i": "8cf2d46185138b79a6f6f8a365d834fd557466c464129d46cb0ad43f0cf8656f",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.3.299.p0.i": "97d19b49a666156a7109e318fa45c54978ce13de6771714d6ec2f69120d7ff0e",
+        "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.3.299.p1.i": "f8bced92ef7574b66bd04dc6238057781142f087f295c4f62b29d2411052bff2",
+        "training/configs/hu1000_params": "429e1672f6b2e0c70ac2ef8f67d89a4d014819e8d2e4a3b96380e759d7e52162",
+        "training/slumbot_data/betting_tree.holdem.2.hu1000": "b301d32117d05058dfa572f3852dfdf7fcf86873251f3ae17cc9ba0737b27446",
+        "training/checkpoints/hu1000_batch299.json": "3afefd0e75ac2224014a5c8e6398ce7e4be1899e7792375b0c2417db58812aa8"
+      },
+      "preflop_export": "training/checkpoints/hu1000_batch299.json",
+      "validated_pro_level": false
+    }
+  ]
+}

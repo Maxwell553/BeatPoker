@@ -1,0 +1,459 @@
+{
+  "format": 1,
+  "release": "v1.0.0",
+  "repository": "Maxwell553/BeatPoker",
+  "files": [
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu100",
+      "bytes": 488616,
+      "sha256": "17dd13c3b599450d14933b2da45839ffac4cf45e5f3dccf48e45ba46ff6982e4"
+    },
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu1000",
+      "bytes": 2243736,
+      "sha256": "b301d32117d05058dfa572f3852dfdf7fcf86873251f3ae17cc9ba0737b27446"
+    },
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu150",
+      "bytes": 675864,
+      "sha256": "dc179b7cb972e13f0af5bf3c005623b45b38efe4d2c43ab95f3e499d8ae6ee61"
+    },
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu200",
+      "bytes": 869016,
+      "sha256": "41ade137bbb67e9a22268cca69a7991731e3b7e7a15a653e54ff85269c4fc3b6"
+    },
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu300",
+      "bytes": 1144680,
+      "sha256": "f433f4afea23f4741da0b96ce55b9a4ba30d5db8dcdad13740400037379e887e"
+    },
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu50",
+      "bytes": 247368,
+      "sha256": "e03491ec3bb0696e69a36243fcb3561c0ef3c3b9215dec59d4e8462bbc1245d9"
+    },
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu500",
+      "bytes": 1605624,
+      "sha256": "3daa733406fa57bda992bb7bf4b7007fe5ec982e98a340b143a180dabfa0d168"
+    },
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu75",
+      "bytes": 360192,
+      "sha256": "0e248a71fd42e55169709df41450170ef74cc30bc92a910dcc587e1bc0246e3e"
+    },
+    {
+      "path": "training/slumbot_data/betting_tree.holdem.2.hu750",
+      "bytes": 2012568,
+      "sha256": "9b9e66ec1ea91a4d4bbd06703367c2f41eb8d65ac19e387aebf9c785dad1f6ad"
+    },
+    {
+      "path": "training/slumbot_data/buckets.holdem.13.4.3.hs256.2",
+      "bytes": 142563408,
+      "sha256": "91eb68b3036993258ce6561585628b8160beec9bfcc1ad0fad72e00d0e62a65c"
+    },
+    {
+      "path": "training/slumbot_data/buckets.holdem.13.4.3.hs256.3",
+      "bytes": 5523166272,
+      "sha256": "86bd5accfde5ecd67de2edb44fea02380da587ebd1b1215f4a3fa50a952a3673"
+    },
+    {
+      "path": "training/slumbot_data/buckets.holdem.13.4.3.null.0",
+      "bytes": 2652,
+      "sha256": "c8c6d6b1545cc1b40514d0e77ff9a25be1f54e540c4f023c795bfa52e37bfa5a"
+    },
+    {
+      "path": "training/slumbot_data/buckets.holdem.13.4.3.potential512.1",
+      "bytes": 4127760,
+      "sha256": "00cf4549aaa2061b6229b7991521a8cf17e5907d5a6a357a6bd497cc080e240d"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.0.99.p0.i",
+      "bytes": 91936,
+      "sha256": "3c965c6b0e05497aaacd77b2d6742ed7502b92c52d28a97595a47556b8b88e51"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.0.99.p1.i",
+      "bytes": 92612,
+      "sha256": "0c9ae404b8a6f32eed18edba8dba2231da4e14c11a8c4dc78f7a68a17aaf278c"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.1.99.p0.i",
+      "bytes": 1869824,
+      "sha256": "28fb93ad752ec6f8cfb483ab13bae32bc760fa7ac4cbde43f1e755fd471d998e"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.1.99.p1.i",
+      "bytes": 1869824,
+      "sha256": "2787eaeb6834a656b23f25ff95ac5aa3ad8562ac3a94cf0a51b62fd0215c0338"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.2.99.p0.i",
+      "bytes": 3600384,
+      "sha256": "a0e35fb0ee366a0078e50f4019af8b68d4d50a878be43843630c859c8a9c9752"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.2.99.p1.i",
+      "bytes": 3600384,
+      "sha256": "7ac06a9a26022ca521b5d66eec495886b6f3168a7f6411110faaf375cf92041d"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.3.99.p0.i",
+      "bytes": 14144512,
+      "sha256": "d9d971a9c8e8203f28f557638f1597189bb3a3747685c528b5baa521d6fcf4f3"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu100.ecfr/sumprobs.x.0.0.3.99.p1.i",
+      "bytes": 14144512,
+      "sha256": "8cbfee112bc68756c3a11093e5b801f3d3c8c399cbeed091e5be42e15091d685"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.0.299.p0.i",
+      "bytes": 91936,
+      "sha256": "201ef913af8e35a5ca09aac9a61796433bcfa4e3770abc0e856cba9c9110fdf8"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.0.299.p1.i",
+      "bytes": 92612,
+      "sha256": "be00ae130402ad3e19f603ee2b339c3b6fe29af876b7d3993acf2d24a1917ad0"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.1.299.p0.i",
+      "bytes": 2729984,
+      "sha256": "1cd7ed835b68bf05f1fe80ae92a2293d3644c6dd0c54631fa33811e426de90c5"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.1.299.p1.i",
+      "bytes": 2729984,
+      "sha256": "983ee045f4452aa2da6557959eac41c34afd36ed44b2ed140e199a3b6d3c975e"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.2.299.p0.i",
+      "bytes": 10778624,
+      "sha256": "456c7d6217975c2942533de20792b10335e22e75cdcb13bdae8381423168b622"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.2.299.p1.i",
+      "bytes": 10778624,
+      "sha256": "8cf2d46185138b79a6f6f8a365d834fd557466c464129d46cb0ad43f0cf8656f"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.3.299.p0.i",
+      "bytes": 79393792,
+      "sha256": "97d19b49a666156a7109e318fa45c54978ce13de6771714d6ec2f69120d7ff0e"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu1000.ecfr/sumprobs.x.0.0.3.299.p1.i",
+      "bytes": 79393792,
+      "sha256": "f8bced92ef7574b66bd04dc6238057781142f087f295c4f62b29d2411052bff2"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.0.99.p0.i",
+      "bytes": 91936,
+      "sha256": "07444b97fc47ce1d053ee7941f380ac627f7efaa90da3b74cff9b689b449960d"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.0.99.p1.i",
+      "bytes": 92612,
+      "sha256": "8946b2b95338601682c25f3b879f42665b9519c0b5327692e943ae8c867c0905"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.1.99.p0.i",
+      "bytes": 2164736,
+      "sha256": "97e5660569a6de80cf6a2ceb1af1a5dc346c394fdb892889a58928677264b808"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.1.99.p1.i",
+      "bytes": 2164736,
+      "sha256": "713d1ce79a751ef28d340efc7dfd92b0f068bd17ede9ca308f2b02bd358785eb"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.2.99.p0.i",
+      "bytes": 4780032,
+      "sha256": "bdd2cc69d59ad22d50fa9da4ce4a173730a5a290176e7b42406981abb2962e29"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.2.99.p1.i",
+      "bytes": 4780032,
+      "sha256": "949a9c7661234dfdd3d5ab07af887b448559da662317fda5e935dca902fec235"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.3.99.p0.i",
+      "bytes": 20356096,
+      "sha256": "2d733a642d4c44c08e023e7937a0a1244ab0a1fcf41cee7a03be17c2e7c20b04"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu150.ecfr/sumprobs.x.0.0.3.99.p1.i",
+      "bytes": 20356096,
+      "sha256": "ab326a0774d1baa6ef91baa2b77f749d4830c43eeb9526a48b09748422c0c0db"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.0.99.p0.i",
+      "bytes": 91936,
+      "sha256": "de015fe37bdeb0e3be318df9414e79a5c37c16d9f6c0a43f910a8975de6aa18e"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.0.99.p1.i",
+      "bytes": 92612,
+      "sha256": "77df6fa4f9b3ef2b8e9e2542753bc65c3ec1dfaefb09246f546f29f746fcdddd"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.1.99.p0.i",
+      "bytes": 2385920,
+      "sha256": "c8e113cda100ecb0fd5afce2df1f7bbba91662895ac9e0883f6c5bacd073d5dc"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.1.99.p1.i",
+      "bytes": 2385920,
+      "sha256": "20befda1220604484148581d543806f9422a1a1278cf6be4fb2ecbb90a6a05a5"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.2.99.p0.i",
+      "bytes": 5937152,
+      "sha256": "968416a8121d84b1a3208e5d3339a097eeadd272ce998be4e1dc7ac9f0072d27"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.2.99.p1.i",
+      "bytes": 5937152,
+      "sha256": "b3843059b441161f35e4715bc1e48641539324ae7d02d635bbbacdcd187d5a54"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.3.99.p0.i",
+      "bytes": 26928128,
+      "sha256": "3c9b3c016cb970d06406334917d3ba62a91f9ea30d52312505e8dea1f6b5b560"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu200.ecfr/sumprobs.x.0.0.3.99.p1.i",
+      "bytes": 26928128,
+      "sha256": "1adf7e4765ca0d5269688e8d3de0f3d8afd4e810a49bd3677a2b1cecf1ab049b"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.0.299.p0.i",
+      "bytes": 91936,
+      "sha256": "80680088703b5327e267b2473500fac955cf47754798032ae0f23b9b69b2996a"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.0.299.p1.i",
+      "bytes": 92612,
+      "sha256": "82787fad593e8f6fb9cc5e73d55a4dd9132bde5b37cdd0620ca81e921fe32760"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.1.299.p0.i",
+      "bytes": 2557952,
+      "sha256": "eb1fad9b442effb9bb49b25a4e6841c7b727feb508f24ee88afea1779879dcef"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.1.299.p1.i",
+      "bytes": 2557952,
+      "sha256": "75d3d31e530a143b1c3c95a32d47bf10cc89acf19fc00d718760941bfe9d2254"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.2.299.p0.i",
+      "bytes": 7286784,
+      "sha256": "859a891fc611b1c2c206da6a2283ec88f86ad227d4b904fccf7a411e8dc96317"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.2.299.p1.i",
+      "bytes": 7286784,
+      "sha256": "b79e4e891cfdc3d082e5307b4bcdacae70aa6770079b5886033286370dae819e"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.3.299.p0.i",
+      "bytes": 36856832,
+      "sha256": "da77fbade63e0822f014cc4ca143e228ae10fbe4f6fea6b470cdf3345327b4a8"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu300.ecfr/sumprobs.x.0.0.3.299.p1.i",
+      "bytes": 36856832,
+      "sha256": "83c2f9cb96424c2261cc1bb8f2ef96cf8e8baa76c7897305faa92e0b7517dda9"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.0.99.p0.i",
+      "bytes": 79768,
+      "sha256": "227e6f47552c4ff939a7cdcf486a7d9b0d9a2e1e892fcce9aadd856141237211"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.0.99.p1.i",
+      "bytes": 80444,
+      "sha256": "22f6475e222d8d2a260f8f783e6165943504465a9065d59848e17afc5b841070"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.1.99.p0.i",
+      "bytes": 1120256,
+      "sha256": "bfacb904ad3ec1ac01fc2cf8e296ef9928c09e4440e37d49b481a3f9402b0114"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.1.99.p1.i",
+      "bytes": 1120256,
+      "sha256": "e048fc9b3c3c3ebf1701753180623d45b03969e084f9b6686ede31975c8792ba"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.2.99.p0.i",
+      "bytes": 1943552,
+      "sha256": "bc642b4d8a992a5ecbef99d04d6d1f0c7e2aebb746d16aa70b75b7853ee30f16"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.2.99.p1.i",
+      "bytes": 1943552,
+      "sha256": "0ec8c8b5705fee231111b77a8ae0732692c8d8f26f898a817317663237874e68"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.3.99.p0.i",
+      "bytes": 6712320,
+      "sha256": "09adb4b15985b82e0b437772d5d884478897ceb3764d30be36c1547a0fd48380"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu50.ecfr/sumprobs.x.0.0.3.99.p1.i",
+      "bytes": 6712320,
+      "sha256": "95d7979cf949eb8cbbc7484696d3df6574c97161b89f24cd24a97d915ad4f021"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.0.299.p0.i",
+      "bytes": 91936,
+      "sha256": "bd6f796dd75c27fefb24101a3d7365d2a3df7e7e3f3df1558c8d9b18d989c139"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.0.299.p1.i",
+      "bytes": 92612,
+      "sha256": "a48a082c9a26f48b5705d39f5c90cac7dfff227ea00c86e50d693609e1285de0"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.1.299.p0.i",
+      "bytes": 2693120,
+      "sha256": "4fbbf6df3afdd26c41342be06bc93b27bf20f6d7a9ec35d05102c519198a05b0"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.1.299.p1.i",
+      "bytes": 2693120,
+      "sha256": "8652c13cd3179eed2dac6633bb34b70318de59424020d9bac1cecffc66797f29"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.2.299.p0.i",
+      "bytes": 9058304,
+      "sha256": "fc6dcebaf25a29dfbe9df09d897042fe124387a5c6caac1b3b466014012a652f"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.2.299.p1.i",
+      "bytes": 9058304,
+      "sha256": "04ccc2581f2083291a38802d81720d7c3fd9cc62462981f44155fba0e8ce627b"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.3.299.p0.i",
+      "bytes": 54242304,
+      "sha256": "9cf96b0b78a80c3fecce70d212ff8bf68665254171c37d8638675df87e43912a"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu500.ecfr/sumprobs.x.0.0.3.299.p1.i",
+      "bytes": 54242304,
+      "sha256": "bfe34e02cf2d1489d4e39cbd5a6af67dc2eee2f7d9b3506f8835d87bb1e9dc07"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.0.99.p0.i",
+      "bytes": 89908,
+      "sha256": "bffb58242165fc55a097755d448ff80b34d27fb3751721d2d4956fcdecba8704"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.0.99.p1.i",
+      "bytes": 90584,
+      "sha256": "85ca7f1a9c9b909a2d0d3290ab73c995acb2d6568ea1655e73966c2d181daaa9"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.1.99.p0.i",
+      "bytes": 1533952,
+      "sha256": "2c0bfd1419f2b73df3c5f5c86410ef2d1a8438f894d946d44ec98cb03af25e67"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.1.99.p1.i",
+      "bytes": 1533952,
+      "sha256": "0caa1a140e82ca8dcf9527266864c45ba89b01936362672b8d26a71be5739ecb"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.2.99.p0.i",
+      "bytes": 2709504,
+      "sha256": "56446ef09f2515c19fa78b56fb0ba7868e443c71b8630ed58d284018e235269f"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.2.99.p1.i",
+      "bytes": 2709504,
+      "sha256": "bff2f8cb382ee98bd1afdcef03e695c2508dc82d864ebb28d38a65093347b2ed"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.3.99.p0.i",
+      "bytes": 10124288,
+      "sha256": "339f637f8eb7ef6a24b1fc3ee9b7551b3a8edc685cf3e2c481ebfbfee97503b2"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu75.ecfr/sumprobs.x.0.0.3.99.p1.i",
+      "bytes": 10124288,
+      "sha256": "662f1946a3a8fa4f3650c1a31fa9c2d5cc6a2986a66af971810cb0cb248ec80f"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.0.299.p0.i",
+      "bytes": 91936,
+      "sha256": "a0331e42b70f0ac811cb92d58a44b79e7ccd68dace5d484d439e9f22d0f308fb"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.0.299.p1.i",
+      "bytes": 92612,
+      "sha256": "f8b6570caeecdc75066d664c9cea8773d60d36fedeb08b1778ddb07b1e15abd8"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.1.299.p0.i",
+      "bytes": 2729984,
+      "sha256": "0d9b16228a55fb6171a69cc1c6419c1d7c4e294ed6fb1c5ca881bee8480b3431"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.1.299.p1.i",
+      "bytes": 2729984,
+      "sha256": "96067f6d815c47720e638188f6c936c43954359af3e0b7f7df0e5516f673a162"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.2.299.p0.i",
+      "bytes": 10305536,
+      "sha256": "6d0b0bd9fd74d2ffc14168ac8d7f070ea98cf8ca7857e7f9c691d275e7f3bbff"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.2.299.p1.i",
+      "bytes": 10305536,
+      "sha256": "cb3d45e0b4eff2324d9b4654d043f8f57102d7b213bf2fed5ad44ab102f5608b"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.3.299.p0.i",
+      "bytes": 70085632,
+      "sha256": "7e56a0bba7a541f1782d1208feed2d1b5ae52aec9237fb9d9a4da8228eb2ef9e"
+    },
+    {
+      "path": "training/slumbot_data/holdem.2.potential512_hs256.13.4.3.hu750.ecfr/sumprobs.x.0.0.3.299.p1.i",
+      "bytes": 70085632,
+      "sha256": "4e7bdd6feb59ac68a5bc6d8dce8096793326e9c7fcfe48345aac14f2819ad953"
+    },
+    {
+      "path": "training/slumbot_data/num_buckets.holdem.13.4.3.hs256.2",
+      "bytes": 4,
+      "sha256": "bf5e8ffa51a9e748985800c1d3d7f1a2a6ae7435136593ca8d9637e3f87c699c"
+    },
+    {
+      "path": "training/slumbot_data/num_buckets.holdem.13.4.3.hs256.3",
+      "bytes": 4,
+      "sha256": "bf5e8ffa51a9e748985800c1d3d7f1a2a6ae7435136593ca8d9637e3f87c699c"
+    },
+    {
+      "path": "training/slumbot_data/num_buckets.holdem.13.4.3.null.0",
+      "bytes": 4,
+      "sha256": "234f3db4e7f169f0a5e5f0f1f227f564549474dae6748451d5a3359d73e036bc"
+    },
+    {
+      "path": "training/slumbot_data/num_buckets.holdem.13.4.3.potential512.1",
+      "bytes": 4,
+      "sha256": "bc3817c13bc4e6f192a840895fa937d252db153efb89bb14a6c2ddf1f9c55409"
+    }
+  ],
+  "parts": [
+    {
+      "name": "beatpoker-models-v1.part001",
+      "bytes": 926041141,
+      "sha256": "35861ae6a7f875dc6e980debb08f1e4ebecdace597dffde2acf16cb7fbff1805"
+    }
+  ]
+}

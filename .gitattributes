@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.rs text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.json text eol=lf
+native/releases/hu-solver-* -text
+native/releases/*.json text eol=lf
+vendor/slumbot2019/bin/* -text
+# Preserve the upstream source formatting.
+vendor/** -whitespace
